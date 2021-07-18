@@ -35,7 +35,7 @@ npm run serve
 
 #### Compile the project for production
 ```
-npm run serve
+npm run build
 ```
 
 ---
