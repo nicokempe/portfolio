@@ -1,5 +1,5 @@
 # My Portfolio
-In this repository I keep the current state of development of my portfolio website written in Vue 3 and Firebase.
+In this repository I keep the current state of development of my portfolio website written in Vue 2 and Spring Boot.
 I have a heap of documentation available for the code in this repository. If you're looking for the answer to something, you may want to start here: 
 
 * [Issues](https://github.com/nicokempe/Portfolio/issues)
@@ -28,12 +28,10 @@ Install [GitHub Desktop](https://desktop.github.com/), click on the green "Code"
 npm install
 ```
 
-
 #### Compile the project for production
 ```
 npm run serve
 ```
-
 
 #### Compiles and minifies for production
 ```
