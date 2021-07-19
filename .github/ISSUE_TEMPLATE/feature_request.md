@@ -22,7 +22,7 @@ _Add any other context or screenshots about the feature request here._
 -----
 
 - [ ] Have you followed the [contributing guidelines](https://github.com/nicokempe/Portfolio/blob/feature/vue-installation/docs/contributing.md)?
-- [ ] Have you explained what your bugs do, and why they add value to the Portfolio?
+- [ ] Have you explained what your feature has to do, and it adds value to the Portfolio?
 - [ ] Have you answered all the questions and clearly prepared the form for the developers? 
 - [ ] Have you checked if this bug report is [already created](https://github.com/nicokempe/Portfolio/issues?q=is%3Aissue+is%3Aopen+)?
 
