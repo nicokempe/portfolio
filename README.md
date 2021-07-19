@@ -1,10 +1,12 @@
-# My Vue 2 Portfolio Website documentation
+# 🚀 My Vue 2 Portfolio Website documentation
 In this repository I keep the current state of development of my portfolio website written in Vue 2 and Spring Boot.
-I have a heap of documentation available for the code in this repository. If you're looking for the answer to something, you may want to start here: 
+I have a heap of documentation available for the code in this repository. You may be interested in the...
 
-* [Issues](https://github.com/nicokempe/Portfolio/issues)
-* [Discussions](https://github.com/nicokempe/Portfolio/discussions)
-* [Wiki](https://github.com/nicokempe/Portfolio/wiki)
+* [Issues](https://github.com/nicokempe/Portfolio/issues) if you want to request a feature or to report a bug.
+* [Discussions](https://github.com/nicokempe/Portfolio/discussions) if you need help by the community or if you want to share your experience with others. 💓
+* [Wiki](https://github.com/nicokempe/Portfolio/wiki) if you quickly need guides for this project.
+* [Code of Conduct](https://github.com/nicokempe/Portfolio/blob/feature/vue-installation/docs/code_of_conduct.md) before you start to work in this community.
+* [Contributing Guidelines](https://github.com/nicokempe/Portfolio/blob/feature/vue-installation/docs/contributing.md) if you intend to contribute to this project yourself. 
 
 ## Table of Contents
 - [Features](#features)
@@ -14,9 +16,10 @@ I have a heap of documentation available for the code in this repository. If you
 ---
 
 ### Features
-- Start page slider
+- Modern material design
 - Project overview
 - Contact form
+- Active updates
 
 ---
 
