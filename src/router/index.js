@@ -36,6 +36,13 @@ const routes = [
     name: 'Projects',
     component: function () {
       return import(/* webpackChunkName: "projects" */ '../views/ProjectsView.vue')
+    },
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: function () {
+      return import(/* webpackChunkName: "404" */ '../views/404View.vue')
     }
   }
 ]
