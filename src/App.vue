@@ -1,35 +1,41 @@
 <template>
     <div id="app">
-        <div id="nav">
-            <router-link to="/">Home</router-link> |
-            <router-link to="/contact">Contact</router-link> |
-            <router-link to="/policies">Policies</router-link> |
-            <router-link to="/imprint">Imprint</router-link> |
-            <router-link to="/projects">Projects</router-link>
-        </div>
+        <Header v-if="hideHeader === false"/>
         <router-view/>
+        <Footer v-if="hideFooter === false"/>
     </div>
 </template>
 
-<style>
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-}
+<script>
 
-#nav {
-    padding: 30px;
-}
+import Header from "./components/global/HeaderComponent";
+import Footer from "./components/global/FooterComponent";
 
-#nav a {
-    font-weight: bold;
-    color: #2c3e50;
+export default {
+  name: 'App',
+  components: {Header, Footer},
+  data() {
+    return {
+      hideHeader: false,
+      hideFooter: false,
+      isNotFound: false,
+    }
+  },
+  watch: {
+    '$route'(to) {
+      if (to.path === '/404') {
+        document.getElementsByTagName("body")[0].classList.add("notFound");
+        this.hideFooter = true;
+        this.hideHeader = true;
+        this.isNotFound = true;
+      } else {
+        document.getElementsByTagName("body")[0].classList.remove("notFound");
+        this.hideFooter = false;
+        this.hideHeader = false;
+        this.isNotFound = false;
+      }
+    },
+  }
 }
+</script>
 
-#nav a.router-link-exact-active {
-    color: #42b983;
-}
-</style>

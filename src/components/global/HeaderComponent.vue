@@ -1,0 +1,35 @@
+<template>
+    <div class="container">
+        <div id="nav">
+            <router-link to="/">Home</router-link> |
+            <router-link to="/contact">Contact</router-link> |
+            <router-link to="/policies">Policies</router-link> |
+            <router-link to="/imprint">Imprint</router-link> |
+            <router-link to="/projects">Projects</router-link> |
+            <router-link to="/404">404</router-link>
+        </div>
+    </div>
+</template>
+
+<style>
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+#nav {
+    padding: 30px;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+    color: #42b983;
+}
+</style>
