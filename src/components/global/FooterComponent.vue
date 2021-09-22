@@ -8,7 +8,7 @@
       >
 
         <v-card-text class="white--text pt-5">
-          Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          I am a German hobby programmer who enjoys getting to know new technologies in his spare time and working with them in both small and larger projects.
         </v-card-text>
 
         <v-divider></v-divider>
