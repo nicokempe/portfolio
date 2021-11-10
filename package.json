@@ -11,7 +11,7 @@
     "roboto-fontface": "*",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
-    "vuetify": "^2.5.11"
+    "vuetify": "^2.5.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~4.5.15",
