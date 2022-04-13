@@ -9,7 +9,7 @@
   "dependencies": {
     "font-awesome": "4.7.0",
     "roboto-fontface": "*",
-    "vue": "^3.2.31",
+    "vue": "^3.2.32",
     "vue-router": "^4.0.14",
     "vuetify": "^2.6.4"
   },
