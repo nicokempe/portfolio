@@ -1,0 +1,43 @@
+{
+  "name": "portolio",
+  "version": "v2024.1.1-dev",
+  "description": "Nuxt 3-powered portfolio site, your gateway to explore my IT ventures, skills, and accomplishments.",
+  "author": {
+    "name": "Nico Kempe",
+    "email": "kontakt@nicokempe.de",
+    "url": "https://www.nicokempe.de"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.20.1",
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.10",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.17",
+    "@heroicons/vue": "^2.1.1",
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/types": "^2.17.3",
+    "@nuxtjs/i18n": "^8.0.0",
+    "@nuxtjs/tailwindcss": "^6.10.4",
+    "@nuxtjs/turnstile": "^0.6.3",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.1"
+  }
+}
