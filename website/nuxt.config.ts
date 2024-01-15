@@ -12,7 +12,8 @@ const config: NuxtConfig = {
     '@nuxt/devtools',
     '@nuxtjs/i18n',
     '@nuxtjs/turnstile',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/eslint-module'
   ],
 
   devtools: {
@@ -74,6 +75,8 @@ const config: NuxtConfig = {
       ],
     }
   },
+
+  eslint: {},
 
   // Ensure TypeScript recognizes Nuxt Content types
   typescript: {
