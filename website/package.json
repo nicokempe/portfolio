@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.19",
-    "@heroicons/vue": "^2.1.1",
+    "@heroicons/vue": "^2.1.4",
     "@nuxt/devtools": "^1.0.8",
     "@nuxt/types": "^2.17.3",
     "@nuxtjs/i18n": "^8.1.1",

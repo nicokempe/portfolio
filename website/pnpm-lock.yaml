@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.7.19
     version: 1.7.19(vue@3.4.22)
   '@heroicons/vue':
-    specifier: ^2.1.1
-    version: 2.1.1(vue@3.4.22)
+    specifier: ^2.1.4
+    version: 2.1.4(vue@3.4.22)
   '@nuxt/devtools':
     specifier: ^1.0.8
     version: 1.0.8(nuxt@3.10.1)(rollup@4.9.5)(vite@5.0.12)
@@ -844,8 +844,8 @@ packages:
       vue: 3.4.22(typescript@5.3.3)
     dev: false
 
-  /@heroicons/vue@2.1.1(vue@3.4.22):
-    resolution: {integrity: sha512-Yi5nh/89L193ALgHyJUQUdNLsKXPrrE3yj5yiR8WAlo7nZyXGxGauQcEAmBsa2XJGMhBMuEdoOiuZ8wEwTBxVQ==}
+  /@heroicons/vue@2.1.4(vue@3.4.22):
+    resolution: {integrity: sha512-wykVSZ/fqEG49lIeHgFGT9TCvBw9THuRTtA/sPp7FVk3iBob/HcmitMcLDwtXOW82TXb38HeLRl1/pcElPeSdg==}
     peerDependencies:
       vue: '>= 3'
     dependencies:
